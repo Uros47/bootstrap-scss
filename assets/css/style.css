@@ -11705,7 +11705,18 @@ textarea.form-control-lg {
 }
 
 th {
+  font-family: "Inter";
+  font-weight: 600;
   color: #FE5E41;
+}
+
+td {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

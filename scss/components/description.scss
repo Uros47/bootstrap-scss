@@ -25,5 +25,10 @@
 }
 
 th {
+    @include Inter600;
     color: $primary;
+}
+
+td {
+    @include Inter400;
 }
