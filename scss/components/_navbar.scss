@@ -1,0 +1,27 @@
+@use "../custom" as *;
+
+.search-form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 80%;
+  right: 0;
+  top: 25%;
+  bottom: 0;
+}
+
+.search-field {
+  width: 256px;
+  border-radius: 4px;
+  height: 56px;
+}
+
+.menu {
+  li {
+    a {
+      color: $white;
+    }
+  }
+}

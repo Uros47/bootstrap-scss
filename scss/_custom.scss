@@ -1,17 +1,6 @@
 $orange: #FE5E41;
-
+$white: white;
 $primary: $orange;
 
-.search-form {
-    position: relative;
-}
-
-.search-icon {
-    position: absolute;
-    left: 80%;
-    right: 0;
-    top: 15%;
-    bottom: 0;
-}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
