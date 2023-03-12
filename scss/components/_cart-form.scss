@@ -1,12 +1,18 @@
 @use "../custom" as *;
 @use "../mixins" as *;
 
-
-
 .add-to-cart-form {
     width: 488px;
     height: 450px;
     background-color: #F2F2F2;
+}
+
+@include media-breakpoint-down(md) {
+    .add-to-cart-form {
+        width: 328px;
+        height: 524px;
+
+    }
 }
 
 .tiny-headline {

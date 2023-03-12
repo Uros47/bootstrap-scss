@@ -11645,4 +11645,11 @@ td {
   font-weight: 400;
 }
 
+@media (max-width: 767.98px) {
+  .description-image {
+    width: 375px;
+    height: 280px;
+  }
+}
+
 /*# sourceMappingURL=description.css.map */

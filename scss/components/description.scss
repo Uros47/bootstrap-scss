@@ -32,3 +32,10 @@ th {
 td {
     @include Inter400;
 }
+
+@include media-breakpoint-down(md) {
+    .description-image {
+        width: 375px;
+        height: 280px;
+    }
+}

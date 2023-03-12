@@ -11658,6 +11658,12 @@ textarea.form-control-lg {
   background-color: #F2F2F2;
 }
 
+@media (max-width: 767.98px) {
+  .add-to-cart-form {
+    width: 328px;
+    height: 524px;
+  }
+}
 .tiny-headline {
   font-family: "Inter";
   font-weight: 600;
@@ -11715,6 +11721,12 @@ td {
   font-weight: 400;
 }
 
+@media (max-width: 767.98px) {
+  .description-image {
+    width: 375px;
+    height: 280px;
+  }
+}
 body {
   height: 100vh;
 }
