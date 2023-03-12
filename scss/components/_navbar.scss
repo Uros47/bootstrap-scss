@@ -1,27 +1,33 @@
 @use "../custom" as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .search-form {
-  position: relative;
+    position: relative;
 }
 
 .search-icon {
-  position: absolute;
-  left: 80%;
-  right: 0;
-  top: 25%;
-  bottom: 0;
+    position: absolute;
+    left: 80%;
+    right: 0;
+    top: 25%;
+    bottom: 0;
 }
 
 .search-field {
-  width: 256px;
-  border-radius: 4px;
-  height: 56px;
+    width: 256px;
+    border-radius: 4px;
+    height: 56px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: $semi-black;
 }
 
 .menu {
-  li {
-    a {
-      color: $white;
+    li {
+        a {
+            color: $white;
+            font-family: 'Inter';
+            font-weight: 600;
+        }
     }
-  }
 }
