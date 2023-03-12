@@ -1,0 +1,12 @@
+@use "../scss/custom" as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:&display=swap');
+
+@mixin Inter600 {
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+@mixin Inter400 {
+    font-family: "Inter";
+    font-weight: 400;
+}
