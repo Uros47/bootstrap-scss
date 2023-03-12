@@ -11619,4 +11619,15 @@ textarea.form-control-lg {
   color: #BDBDBD;
 }
 
+.description-text {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.btn-orange {
+  color: #FE5E41;
+  background-color: white;
+  border-color: #F2F2F2;
+}
+
 /*# sourceMappingURL=description.css.map */

@@ -11675,7 +11675,7 @@ textarea.form-control-lg {
   height: 48px;
 }
 
-.btn-light {
+.btn-green {
   color: #00A878;
   background-color: white;
 }
@@ -11687,6 +11687,17 @@ textarea.form-control-lg {
 
 .hr {
   color: #BDBDBD;
+}
+
+.description-text {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.btn-orange {
+  color: #FE5E41;
+  background-color: white;
+  border-color: #F2F2F2;
 }
 
 /*# sourceMappingURL=style.css.map */

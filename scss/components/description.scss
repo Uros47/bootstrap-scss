@@ -9,3 +9,13 @@
 .hr {
     color: $dark-grey;
 }
+
+.description-text {
+    @include Inter400;
+}
+
+.btn-orange {
+    color: $primary;
+    background-color: $white;
+    border-color: $light-grey;
+}
