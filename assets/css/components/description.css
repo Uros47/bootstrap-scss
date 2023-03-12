@@ -11610,76 +11610,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.search-form {
-  position: relative;
-}
-
-.search-icon {
-  position: absolute;
-  left: 80%;
-  right: 0;
-  top: 25%;
-  bottom: 0;
-}
-
-.search-field {
-  width: 256px;
-  border-radius: 4px;
-  height: 56px;
-  font-family: "Inter";
-  font-weight: 400;
-  color: #1E1E1E;
-}
-
-.menu li a {
-  font-family: "Inter";
-  font-weight: 600;
-  color: white;
-}
-
-.bread-crums {
-  font-family: "Inter";
-  font-weight: 400;
-}
-
-.hero-headline {
-  font-family: "Inter";
-  font-weight: 600;
-}
-
-.form-check-label {
-  font-family: "Inter";
-  font-weight: 400;
-}
-
-.add-to-cart-form {
-  width: 488px;
-  height: 450px;
-  background-color: #F2F2F2;
-}
-
-.tiny-headline {
-  font-family: "Inter";
-  font-weight: 600;
-}
-
-.cart-text-section {
-  font-family: "Inter";
-  font-weight: 400;
-}
-
-.btn {
-  font-family: "Inter";
-  font-weight: 600;
-  width: 140px;
-  height: 48px;
-}
-
-.btn-light {
-  color: #00A878;
-  background-color: white;
-}
-
 .description-options {
   font-family: "Inter";
   font-weight: 600;
@@ -11689,4 +11619,4 @@ textarea.form-control-lg {
   color: #BDBDBD;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=description.css.map */

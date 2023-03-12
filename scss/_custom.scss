@@ -1,9 +1,24 @@
+// colors
 $orange: #FE5E41;
 $white: white;
 $semi-black: #1E1E1E;
+$green: #00A878;
+$light-grey: #F2F2F2;
+$dark-grey: #BDBDBD;
+
+// checkbox style override
+$form-check-input-bg: $light-grey;
+$form-check-input-checked-color: $white;
+$form-check-input-checked-bg-color: $green;
+$form-check-input-border: 2px solid $dark-grey;
+$form-check-input-checked-border-color: $green;
+$form-check-input-focus-box-shadow: none;
+$form-check-input-focus-border: none;
 
 
+// primary color override
 $primary: $orange;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

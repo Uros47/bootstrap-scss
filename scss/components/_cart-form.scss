@@ -1,0 +1,29 @@
+@use "../custom" as *;
+@use "../mixins" as *;
+
+
+
+.add-to-cart-form {
+    width: 488px;
+    height: 450px;
+    background-color: #F2F2F2;
+}
+
+.tiny-headline {
+    @include Inter600;
+}
+
+.cart-text-section {
+    @include Inter400;
+}
+
+.btn {
+    @include Inter600;
+    width: 140px;
+    height: 48px;
+}
+
+.btn-light {
+    color: $green;
+    background-color: $white;
+}

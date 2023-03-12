@@ -1,0 +1,11 @@
+@use "../custom" as *;
+@use "../mixins" as *;
+
+
+.description-options {
+    @include Inter600;
+}
+
+.hr {
+    color: $dark-grey;
+}
