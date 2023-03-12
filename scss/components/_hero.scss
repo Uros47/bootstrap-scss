@@ -1,0 +1,6 @@
+@use "../custom" as *;
+@use "../mixins" as *;
+
+.bread-crums {
+    @include Inter400;
+}
