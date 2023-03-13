@@ -12,3 +12,20 @@
 .form-check-label {
     @include Inter400;
 }
+
+@include media-breakpoint-down(md) {
+    .hero-headline {
+        width: 300px;
+    }
+
+    .hero-headline-and-icons {
+        position: relative;
+    }
+
+    .icon-group {
+        position: absolute;
+        left: 36%;
+        right: 0;
+        top: 55%;
+    }
+}

@@ -12,6 +12,7 @@
 
 .description-text {
     @include Inter400;
+    padding-right: 100px;
 }
 
 .btn-orange {
@@ -35,7 +36,18 @@ td {
 
 @include media-breakpoint-down(md) {
     .description-image {
-        width: 375px;
-        height: 280px;
+        width: 350px;
+    }
+
+    .description-text {
+        padding-right: 0px;
+    }
+
+    th:nth-last-child(-n + 3) {
+        display: none;
+    }
+
+    td:nth-last-child(-n + 3) {
+        display: none;
     }
 }

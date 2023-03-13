@@ -11622,6 +11622,7 @@ textarea.form-control-lg {
 .description-text {
   font-family: "Inter";
   font-weight: 400;
+  padding-right: 100px;
 }
 
 .btn-orange {
@@ -11647,8 +11648,16 @@ td {
 
 @media (max-width: 767.98px) {
   .description-image {
-    width: 375px;
-    height: 280px;
+    width: 350px;
+  }
+  .description-text {
+    padding-right: 0px;
+  }
+  th:nth-last-child(-n+3) {
+    display: none;
+  }
+  td:nth-last-child(-n+3) {
+    display: none;
   }
 }
 

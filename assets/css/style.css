@@ -11652,6 +11652,20 @@ textarea.form-control-lg {
   font-weight: 400;
 }
 
+@media (max-width: 767.98px) {
+  .hero-headline {
+    width: 300px;
+  }
+  .hero-headline-and-icons {
+    position: relative;
+  }
+  .icon-group {
+    position: absolute;
+    left: 36%;
+    right: 0;
+    top: 55%;
+  }
+}
 .add-to-cart-form {
   width: 488px;
   height: 450px;
@@ -11660,8 +11674,8 @@ textarea.form-control-lg {
 
 @media (max-width: 767.98px) {
   .add-to-cart-form {
-    width: 328px;
-    height: 524px;
+    width: fit-content;
+    height: fit-content;
   }
 }
 .tiny-headline {
@@ -11698,6 +11712,7 @@ textarea.form-control-lg {
 .description-text {
   font-family: "Inter";
   font-weight: 400;
+  padding-right: 100px;
 }
 
 .btn-orange {
@@ -11723,8 +11738,16 @@ td {
 
 @media (max-width: 767.98px) {
   .description-image {
-    width: 375px;
-    height: 280px;
+    width: 350px;
+  }
+  .description-text {
+    padding-right: 0px;
+  }
+  th:nth-last-child(-n+3) {
+    display: none;
+  }
+  td:nth-last-child(-n+3) {
+    display: none;
   }
 }
 body {
