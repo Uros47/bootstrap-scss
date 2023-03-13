@@ -6,14 +6,14 @@
     background-color: rgba(0, 0, 0, 0.749);
 }
 
-.modal-dialog {
-    width: 480px;
-    height: 412px;
+.modal-content {
+    @include Inter600;
 }
 
-@include media-breakpoint-down(md) {
+
+@include media-breakpoint-up(md) {
     .modal-dialog {
-        width: 328px;
-        height: 436px;
+        width: 480px;
+        height: 412px;
     }
 }
