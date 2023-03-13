@@ -3,14 +3,17 @@
 
 
 .modal-container {
-    /* display: none; */
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.749);
+}
+
+.modal-dialog {
+    width: 480px;
+    height: 412px;
+}
+
+@include media-breakpoint-down(md) {
+    .modal-dialog {
+        width: 328px;
+        height: 436px;
+    }
 }
