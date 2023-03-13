@@ -30,3 +30,20 @@
         }
     }
 }
+
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: -14px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: black;
+}

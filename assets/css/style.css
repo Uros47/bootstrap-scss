@@ -11637,6 +11637,23 @@ textarea.form-control-lg {
   color: white;
 }
 
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  bottom: -14px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: black;
+}
+
 .bread-crums {
   font-family: "Inter";
   font-weight: 400;
@@ -11659,7 +11676,7 @@ textarea.form-control-lg {
   .hero-headline-and-icons {
     position: relative;
   }
-  .icon-group {
+  .hero-icon-group {
     position: absolute;
     left: 36%;
     right: 0;
