@@ -10,7 +10,33 @@
 </head>
 
 <body>
+    <!-- MODAL -->
+    <div class="modal modal-container" id="modal-container" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal()"></button>
+                </div>
+                <div class="modal-body">
+                    <p>We’ll get back to you as soon as possible.</p>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeBtn" onclick="closeModal()">Close</button>
+                    <button type="button" class="btn btn-primary text-white">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL end-->
     <div class="application-container">
+
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid container">
@@ -149,7 +175,7 @@
                     <!-- cart buttons -->
                     <div class="two-buttons d-flex gap-3 mt-3">
                         <button type="button" class="btn btn-success text-white">Add to cart</button>
-                        <button type="button" class="btn btn-green">Contact Us</button>
+                        <button type="button" class="btn btn-green" onclick="openModal()">Contact Us</button>
                     </div>
                     <!-- cart buttons end-->
                 </div>

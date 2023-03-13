@@ -3,6 +3,7 @@
 @use 'components/hero';
 @use 'components/cart-form';
 @use "components/description.scss";
+@use "components/modal";
 
 body {
     height: 100vh;
